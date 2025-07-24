@@ -1,0 +1,11 @@
+{
+    "name": "doctailwind/block-name",
+    "title": "Block Name",
+    "category": "design",
+    "icon": "block-default",
+    "description": "Custom Block Name block",
+    "textdomain": "doctailwind",
+    "editorScript": "file:./block.jsx",
+    "style": "file:./block.css",
+    "render": "file:./block.php"
+}

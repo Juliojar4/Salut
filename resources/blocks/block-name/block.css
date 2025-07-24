@@ -1,0 +1,23 @@
+.block-name-block {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.block-name-block h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.block-name-block-editor {
+    background: #f9fafb;
+    border: 2px dashed #d1d5db !important;
+}
+
+.block-name-block-editor:hover {
+    border-color: #3b82f6 !important;
+}

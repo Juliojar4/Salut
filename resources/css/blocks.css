@@ -1,0 +1,21 @@
+/**
+ * Styles for Custom Gutenberg Blocks
+ */
+
+/* Base styles for all custom blocks */
+.wp-block[data-type^="auto-blocks/"] {
+  /* Specific styles for auto-blocks will be added here */
+  position: relative;
+}
+
+/* Default spacing for blocks */
+.auto-blocks-wrapper {
+  margin: 1rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .auto-blocks-wrapper {
+    margin: 0.5rem 0;
+  }
+}
