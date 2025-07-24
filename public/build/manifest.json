@@ -1,0 +1,61 @@
+{
+  "editor.deps.json": {
+    "file": "assets/editor.deps-DRrbpNVc.json",
+    "src": "editor.deps.json"
+  },
+  "resources/blocks/block-name/block.css": {
+    "file": "assets/block-DTk0UQU_.css",
+    "src": "resources/blocks/block-name/block.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-F9-Y5ull.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/blocks.css": {
+    "file": "assets/blocks-DUf_qGu0.css",
+    "src": "resources/css/blocks.css",
+    "isEntry": true
+  },
+  "resources/css/editor.css": {
+    "file": "assets/editor-CSbDCFgI.css",
+    "src": "resources/css/editor.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DZuxgwLE.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/blocks.js"
+    ],
+    "css": [
+      "assets/app-F9-Y5ull.css",
+      "assets/blocks-DUf_qGu0.css"
+    ]
+  },
+  "resources/js/blocks.js": {
+    "file": "assets/blocks-DMc6R4r0.js",
+    "name": "blocks",
+    "src": "resources/js/blocks.js",
+    "isEntry": true,
+    "css": [
+      "assets/blocks-DUf_qGu0.css"
+    ]
+  },
+  "resources/js/editor.js": {
+    "file": "assets/editor-CfCAMAyE.js",
+    "name": "editor",
+    "src": "resources/js/editor.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/blocks.js"
+    ],
+    "css": [
+      "assets/editor-CSbDCFgI.css",
+      "assets/blocks-DUf_qGu0.css"
+    ]
+  }
+}
